@@ -7,11 +7,13 @@ import Host from "../../SubComponents/Host";
 import About from "../../SubComponents/About";
 import Contact from "../../SubComponents/Contact";
 
+import MetamaskButton from "../metamask/MetamaskButton";
 
 const Home = () => {
   return (
     <>
       <article className="page">
+        <MetamaskButton />
         <HeroSection/>
         <TopVillas/>
         <Regions/>
