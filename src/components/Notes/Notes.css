@@ -1,0 +1,66 @@
+.notes {
+    margin-top: 100px;
+    padding-bottom: 40px;
+
+    .note {
+        margin-top: 10px;
+        min-width: 300px;
+        min-height: 120px;
+        padding: 8px;
+        background-color: lightgray;
+        border: 2px solid #999;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .note-title {
+            font-size: 25px;
+            color: #999;
+            margin-bottom: 10px;
+        }
+        .note-content {
+            flex-grow: 1;
+        }
+
+        .edit-textarea {
+            border-radius: 5px;
+            border: 2px solid #999;
+            padding: 4px;
+            margin-bottom: 10px;
+        }
+
+        .edit-section {
+            display: flex;
+            
+            justify-content: flex-end;
+
+            div {
+                font-size: 12px;
+            }
+
+            .delete-btn {
+                color: red;
+                margin-left: 10px;
+                cursor: pointer;
+                box-sizing: border-box;
+                height: 15px;
+
+                &:hover {
+                    border-bottom: 1px solid red;
+                }
+            }
+
+            .edit-btn {
+                color: orange;
+                cursor: pointer;
+                box-sizing: border-box;
+                height: 15px;
+
+                &:hover {
+                    border-bottom: 1px solid orange;
+                }
+            }
+        }
+    }
+}

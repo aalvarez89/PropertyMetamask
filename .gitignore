@@ -1,3 +1,4 @@
 /node_modules
 /.pnp
 .pnp.js
+/server/node/node_modules

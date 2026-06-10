@@ -8,11 +8,13 @@ import About from "../../SubComponents/About";
 import Contact from "../../SubComponents/Contact";
 
 import MetamaskButton from "../metamask/MetamaskButton";
+import Notes from "../Notes/Notes";
 
 const Home = () => {
   return (
     <>
       <article className="page">
+        <Notes></Notes>
         <MetamaskButton />
         <HeroSection/>
         <TopVillas/>
